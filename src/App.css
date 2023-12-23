@@ -1,0 +1,19 @@
+
+
+body{
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(8,1,18,1) 100%);
+}
+
+.background2{
+  height: 100vh;
+}
+
+.containerAll{
+  height: 20px;
+  background-color: white;
+}
+
+.aboveBackground{
+  margin-top: -750px;
+}
