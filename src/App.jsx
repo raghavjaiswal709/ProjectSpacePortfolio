@@ -26,11 +26,7 @@ function App() {
         <Hero style={{ position: "relative", bottom: -900 }} />
         <Parallax />
         <WhatIDo />
-
-        <Parallax />
-        <Parallax />
-        <Parallax />
-        <Parallax />
+        <Hero style={{ position: "relative", bottom: -900 }} />
       </div>
     </div>
   );
