@@ -7,19 +7,21 @@ img{
     color: white;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
-    gap: 250px;
+    gap: 150px;
     justify-content: center;
+    position: relative;
     
 }
 .introsection2{
+    /* position: relative; */
     display: flex;
     width: 80%;
-    gap: 250px;
-    background: rgba(255,255,255,0.4);
--webkit-backdrop-filter: blur(7px);
-backdrop-filter: blur(7px);
-border: 1px solid rgba(255,255,255,0.2);
-align-items: end;
+    gap: 200px;
+    background: rgba(216,202,250,0.2);
+-webkit-backdrop-filter: blur(2px);
+backdrop-filter: blur(2px);
+border: 1px solid rgba(216,202,250,0.1);
+align-items: center;
 padding: 0px 0px 0px 70px;
 border-radius: 40px;
 }
@@ -33,5 +35,35 @@ border-radius: 40px;
 }
 
 .raghavtxt{
-    margin-top: -45px;
+    /* margin-top: -45px; */
+    margin-left: -10px;
+    background: #13A9CF;
+background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+.thisisraghav{
+    /* padding-top: -100px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.typewriterpara{
+    margin: 20px 0;
+    height: 0px;
+    letter-spacing: 9px;
+    font-size: 2rem;
+}
+
+.typewrittereff{
+    margin-bottom: 0px;
+    /* background-color: red; */
+    position: relative;
+    bottom: -20px;
+    right: 0px;
+
 }

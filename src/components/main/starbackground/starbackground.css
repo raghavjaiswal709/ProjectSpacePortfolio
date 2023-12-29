@@ -1,5 +1,7 @@
 background2{
-    height: 400vh;
+    height: 0vh;
     background-color: red;
+    position: fixed;
 }
+
 

@@ -1,6 +1,7 @@
 .containerMain{
     height: 10vh;
     color: white;
+    background-color: none;
     /* background: rgba(56,56,56,0.4);
 -webkit-backdrop-filter: blur(2px);
 backdrop-filter: blur(2px);

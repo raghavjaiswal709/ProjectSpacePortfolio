@@ -1,0 +1,21 @@
+.wxoeriences{
+    color: white;
+}
+
+.whatidocontainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    /* align-items: center; */
+}
+
+.whatidocontainermini{
+    background-color: yellow;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+}
