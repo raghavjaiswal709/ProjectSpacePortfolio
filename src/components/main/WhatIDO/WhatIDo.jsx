@@ -17,7 +17,7 @@ const Parallax = ({ type }) => {
   const WhatIDo = () => {
     return (
       <motion.div className="whatidocontainer">
-        <motion.h1 style={{ y: yBg }} className="wxoeriences">
+        <motion.h1 className="wxoeriences">
           I create experiences on the <span className="experienf">WEB</span>
         </motion.h1>
         <img className="allsvg2" src={allsvg} />
