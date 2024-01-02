@@ -2,8 +2,12 @@ import "./App.css";
 import WhatIDo from "./components/main/WhatIDO/WhatIDo";
 import Hero from "./components/main/heroSection/Hero";
 import MainHeader from "./components/main/mainHeader/MainHeader";
+import Mytimeline from "./components/main/mytimeline/Mytimeline";
 import Parallax from "./components/main/parallax/Parallax";
+import Projects from "./components/main/projectss/Projects";
 import StarsCanvas from "./components/main/starbackground/starbackground";
+import TechnologiesIUse from "./components/main/technologiesIuse/TechnologiesIUse";
+import Timeline from "./components/main/timeline/Timeline";
 
 // Import statements...
 
@@ -26,7 +30,10 @@ function App() {
         <Hero style={{ position: "relative", bottom: -900 }} />
         <Parallax />
         <WhatIDo />
-        <Hero style={{ position: "relative", bottom: -900 }} />
+        <Projects />
+        <TechnologiesIUse />
+        <Mytimeline />
+        <Timeline />
       </div>
     </div>
   );

@@ -1,0 +1,25 @@
+.projectsheading{
+    background: #13A9CF;
+    background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #13A9CF ;
+}
+
+.projects{
+    height: 100vh;
+    margin: 40px;
+}
+
+.justtoflexcards{
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
