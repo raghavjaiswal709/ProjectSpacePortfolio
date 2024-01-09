@@ -1,7 +1,7 @@
 img{
     height: 450px;
     position: relative;
-    top: -40px;
+    top: -47px;
 }
 
 .introsection{
@@ -12,6 +12,10 @@ img{
     gap: 150px;
     justify-content: center;
     position: relative;
+    bottom: 30px;
+    overflow: hidden;
+    height: 70vh;
+    align-items: center;
     
 }
 .introsection2{
@@ -75,13 +79,14 @@ background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
 
 
 .emojicard1{
-    height: 40px;
+    height: 50px;
     width: 230px;
     position: relative;
     right: -350px;
     box-shadow: inset -10px -10px -5px rgba(255, 255, 255, 0.5), 
     inset 10px 10px 15px rgba(70, 70, 70, 0.12);    
     top: 80px;
+    padding: 10px;
     
     border-radius: 40px 40px 40px 0px;
     color: white;
@@ -89,8 +94,8 @@ background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
     position: relative;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
-    gap: 3px;
-    background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
+    gap: 2px;
+    background: linear-gradient(to right, #7011CF 33%,  #936BFF 100%, #13A9CF 9% );
 
     
 }
@@ -119,15 +124,16 @@ background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
     height: 50px;
     width: 280px;
     position: relative;
-    right: 250px;
+    right: 150px;
     box-shadow: inset -10px -10px -5px rgba(255, 255, 255, 0.5), 
     inset 10px 10px 15px rgba(70, 70, 70, 0.12);    
-    top: 380px;
+    top: -20px;
     z-index: 10;
     
-    border-radius: 40px 0px 40px 40px;
+    border-radius: 15px 15px 0px 15px;
     color: white;
     display: flex;
+    padding: 10px;
     position: relative;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
@@ -135,4 +141,35 @@ background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
     background: linear-gradient(to right, #13A9CF 9%, #936BFF 100%, #7011CF 33%);
 
     
+}
+.emojicard3{
+    height: 50px;
+    width: 230px;
+    position: relative;
+    right: 350px;
+    box-shadow: inset -10px -10px -5px rgba(255, 255, 255, 0.5), 
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);    
+    top: 80px;
+    padding: 10px;
+    
+    border-radius: 40px 40px 40px 0px;
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 2px;
+    background: linear-gradient(to right, #7011CF 13%,  #936BFF 40%, #13A9CF 79% );
+
+    
+}
+
+.svgstarshero3{
+    position: relative;
+    right: 0px;
+}
+
+.parastarshero3{
+    position: relative;
+    left: 10px;
 }

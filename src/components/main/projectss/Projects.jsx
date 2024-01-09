@@ -8,9 +8,6 @@ const Projects = () => {
       <h1 className="projectsheading">Projects</h1>
       <div className="justtoflexcards">
         <Projectcard />
-        <Projectcard />
-        <Projectcard />
-        <Projectcard />
       </div>
     </div>
   );

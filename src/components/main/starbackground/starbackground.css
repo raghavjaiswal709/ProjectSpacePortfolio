@@ -1,7 +1,8 @@
 background2{
     height: 0vh;
-    background-color: red;
+    /* background-color: red; */
     position: fixed;
+    z-index: 1000;
 }
 
 

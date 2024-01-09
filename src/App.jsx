@@ -18,7 +18,12 @@ function App() {
     <div className="App">
       <div
         className="backgroundContainer"
-        style={{ position: "fixed", width: "100%", height: "100%", zIndex: -1 }}
+        style={{
+          position: "fixed",
+          width: "100%",
+          height: "100%",
+          zIndex: 0,
+        }}
       >
         <StarsCanvas />
       </div>
